@@ -1,0 +1,44 @@
+h1{
+    background-color: brown;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 400px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+.first_box{
+    width: 350px;
+    height: 350px;
+    background-color: antiquewhite;
+    
+}
+.second_box{
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+    
+}
+.third_box{
+    width: 350px;
+    height: 350px;
+    background-color:darkgreen;
+    
+}
+.fourth_box{
+    width: 350px;
+    height: 350px;
+    background-color:yellowgreen;
+    
+}
+.fifth_box{
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+}
